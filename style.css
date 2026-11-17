@@ -1,0 +1,24 @@
+body { background: #f4f6f9; }
+.sidebar { min-height: 100vh; background: #17324d; }
+.sidebar a { color: #e8eef5; text-decoration: none; display: block; padding: .7rem 1rem; border-radius: .4rem; }
+.sidebar a:hover, .sidebar a.active { background: #284b6b; color: #fff; }
+.brand { color: #fff; font-size: 1.2rem; font-weight: 700; padding: 1.25rem 1rem; }
+.content { padding: 2rem; }
+.card { border: 0; box-shadow: 0 2px 12px rgba(20, 40, 60, .06); }
+.sidebar a i {
+    margin-right: 8px;
+}
+@media (max-width: 767px) {
+    .sidebar { min-height: auto; }
+    .content { padding: 1rem; }
+}
+.tela-inicial {
+    height: calc(100vh - 4rem);
+}
+
+.tela-inicial img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: .5rem;
+}
